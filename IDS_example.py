@@ -1,3 +1,5 @@
+
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -10,7 +12,10 @@ Hizal, Selman, Ünal ÇAVUŞOĞLU, and Devrim AKGÜN. "A New Deep Learning Based
 Detection System for Cloud Security." 2021 3rd International Congress on Human-Computer 
 Interaction, Optimization and Robotic Applications (HORA). IEEE, 2021.
 """
+pip install jupytext
 
+Step 2:
+jupytext --to notebook your IDS_example.py
 
 import matplotlib.pyplot as plt
 from tensorflow.keras.utils import plot_model
